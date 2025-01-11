@@ -22,12 +22,6 @@ jobs:
           node-version: 20
           registry-url: 'https://registry.npmjs.org/'
 
-      - name: Compile SCSS
-        uses: gha-utilities/sass-build@v0.6.0
-        with:
-          source: scss/index.scss
-          destination: dist/index.scss
-
       - name: Bump Version of package.json
         uses: ramonpaolo/bump-version@v2.3.1
         with:
