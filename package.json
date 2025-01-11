@@ -1,0 +1,20 @@
+{
+  "name": "@insignia-education/js-core",
+  "version": "1.0.0",
+  "description": "js core functionalities for insignia-education",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "sass scss/index.scss dist/index.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insignia-education/js-core.git"
+  },
+  "author": "Insignia Education",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insignia-education/js-core/issues"
+  },
+  "homepage": "https://github.com/insignia-education/js-core#readme"
+}
