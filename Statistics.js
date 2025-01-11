@@ -1,5 +1,7 @@
+import "./Helpers.js"
 export default class Statistics{
     #needles = []
+    #updating = false;
     setNeedles(needles){
         this.#needles = needles;
         return this;
@@ -25,15 +27,18 @@ export default class Statistics{
         return data;
     }
     update(){
-        return !App.actions("StatisticsUpdate") 
-        ?  App.actions("StatisticsUpdate", true) && fetch(window.app_url, {
+        const url = document.querySelector('body').getAttribute('data-stats_update_url');
+        if(this.#updating || is_null(url)){
+            return null;
+        }
+        this.#updating = true;
+        return fetch(url, {
             method: 'POST',
             mode: 'cors', 
             body: JSON.stringify(this.buildData())
         }).finally(() => {
-            App.actions("StatisticsUpdate", false);
-        })
-        : null;
+            this.#updating = false;
+        });
     }
     static init(needles = []){
         const stats = new Statistics(needles);
