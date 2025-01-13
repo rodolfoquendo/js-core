@@ -11,11 +11,11 @@ this will be growing with everything that i need to rebuild insignia in a mainta
 ## Testing
 
 ```bash
-make test
+npm install && npm test && open coverage/lcov-report/index.html
 ```
 
 ### coverage html report
 
 ```bash
-make coverage-report
+open coverage/lcov-report/index.html
 ```
