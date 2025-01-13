@@ -4,8 +4,7 @@
   "description": "js core functionalities for insignia-education",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "build": "sass scss/index.scss dist/index.css --style=compressed"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/insignia-education/js-core/issues"
   },
-  "homepage": "https://github.com/insignia-education/js-core#readme"
+  "homepage": "https://github.com/insignia-education/js-core#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
 }
