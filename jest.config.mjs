@@ -203,7 +203,7 @@ const config = {
   testEnvironment: 'jsdom',
   testEnvironmentOptions: {
     html: '<html lang="en"></html>',
-    url: 'https://jestjs.io/',
+    url: 'https://rodolfoquendo.com/',
     userAgent: 'Agent/007',
   },
 };
