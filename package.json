@@ -1,21 +1,21 @@
 {
-  "name": "@insignia-education/js-core",
-  "version": "1.0.0",
-  "description": "js core functionalities for insignia-education",
+  "name": "@rodolfoquendo/js-core",
+  "version": "1.0.1",
+  "description": "js core functionalities for  me",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/insignia-education/js-core.git"
+    "url": "git+https://github.com/rodolfoquendo/js-core.git"
   },
-  "author": "Insignia Education",
+  "author": "Rodolfo Oquendo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/insignia-education/js-core/issues"
+    "url": "https://github.com/rodolfoquendo/js-core/issues"
   },
-  "homepage": "https://github.com/insignia-education/js-core#readme",
+  "homepage": "https://github.com/rodolfoquendo/js-core#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.26.0",
     "babel-jest": "^29.7.0",
