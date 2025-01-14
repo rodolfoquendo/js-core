@@ -1,5 +1,4 @@
 import Statistics from '../lib/Statistics.js';
-import Helpers from '../lib/Helpers.js';
 
 global.fetch = (url, options) => new Promise((resolve, reject) => {
   let xhr = new XMLHttpRequest();
