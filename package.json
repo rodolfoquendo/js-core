@@ -1,6 +1,6 @@
 {
   "name": "@rodolfoquendo/js-core",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "js core functionalities for  me",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   },
   "author": "Rodolfo Oquendo",
   "license": "ISC",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/c/rodolfoquendo"
+  },
   "bugs": {
     "url": "https://github.com/rodolfoquendo/js-core/issues"
   },
