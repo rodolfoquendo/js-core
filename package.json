@@ -1,8 +1,9 @@
 {
   "name": "@rodolfoquendo/js-core",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "js core functionalities for  me",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
